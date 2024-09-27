@@ -13,7 +13,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://ajinkya9834.github.io/Article-preview-component-practice/)
 
 ### The challenge
 

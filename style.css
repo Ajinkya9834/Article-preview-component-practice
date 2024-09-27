@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-size: 13px;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%) ;
+    
+}
+
+.share-card{
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+}
+.card-img > img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.info{
+    padding: 20px;
+}
+.card-des > h2{
+    margin-bottom: 16px;
+}
+.font-color{
+    color:hsl(218, 19%, 31%) ;    
+}
+.card-des > p{
+    color:hsl(214, 17%, 51%);
+}
+.user-img > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 16px;
+}
+.user-info > span+ br +span {
+    color: hsl(211, 16%, 56%);
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20  px;
+}
+.share-icon {
+    width: 20px;
+    height: 20px;
+}
+#share-icon-img{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.card-des{
+    position: relative;
+}
+
+.media-icons{   
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: center;
+    right: 0;
+    background-color:  hsl(214, 17%, 51%);
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    opacity: 1;
+
+}
+
+.media-icons, .user-img, .share-icon{
+    cursor: pointer;
+}
+
+.show{
+    display: none;
+}
+
+@media (min-width: 426px){
+    .share-card{
+        width: 342px;
+        height: 496px;
+    }
+}
